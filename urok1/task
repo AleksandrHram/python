@@ -1,0 +1,9 @@
+a = "Hello world"
+b = "Hello Russia"
+print(a, b)
+hi = input("Как Вас зовут?")
+print(a, b)
+print("Добрый день " + hi)
+number1 = input("Введите первое число")
+number2 = input("Введите второе число")
+print(number1, number2)
