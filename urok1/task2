@@ -1,0 +1,5 @@
+second =int (input("Введите время в секундах"))
+minute = second // 60
+hour = second // 60 // 60
+print(minute, "минут в", second, "сукундах")
+print(hour, "часов", second, "секундах")
