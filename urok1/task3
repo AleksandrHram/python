@@ -1,0 +1,7 @@
+a = int(input("Введите число"))
+summa = str(a)
+s1 = summa + summa
+s2 = summa + summa + summa
+print(s1)
+print(s2)
+print("Сумма чисел ", a + int(s1) + int(s2))
