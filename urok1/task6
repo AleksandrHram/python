@@ -1,0 +1,7 @@
+res_day = int(input("Результат километров в первый день"))
+km = int(input("Ваша цель в километрах"))
+day = 1
+while km - res_day > 0:
+    res_day = res_day + (res_day * 0.1)
+    day += 1
+print("Вы выполните свою цель на ", day, "день")
